@@ -6,6 +6,8 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+
+    
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,15 +15,19 @@
     </head>
     <body>
     
-    <% 
-       integer a = 5;
-       integer b = 6;
-       integer c = b + 1;
-       int tasi= a + c;
+        <%
+            
            
-     %>
-        
-        
+          
+           
+       for(int i = 8; i < 28; i++){
+          out.print(8 * 20);
+           
+       }
+          
+                    
+        %>
+               
         
         
     </body>
